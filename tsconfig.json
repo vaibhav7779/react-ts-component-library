@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./build",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./build",
+    "target": "es5",
+    "jsx": "react-jsx",
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
